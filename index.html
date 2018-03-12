@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+    <div class="head">
+        <header>Crystals Collector</header> 
+    </div>
+
+    <div class="instructions">
+        <p>You will be given a random number at the start of the game. <br /> 
+        There are four crystals below. You will add a specific amount of points to your total score by clicking on a crystal. <br />
+        You win the game by matching your total score to the random number, you lose the game if your total score exceeds the random number. <br />
+        The value of each crystal is hidden until you click on it.<br />
+        Each time a new game starts, the value of each crystal will change.</p>
+    </div>
+
+    <div class="match-me">
+        <p id = "large"> Match Me: 
+            <div id="number-to-match"></div>
+        </p>
+    </div>
+
+    <div class="score">
+        <p id = "large">Wins: 
+            <div id="wins"></div>
+        </p>
+        <p id = "large">Losses: 
+            <div id="losses"></div>
+        </p>
+    </div>
+
+    <div class="crystal-buttons">
+        <button id="button-1" ><img src="assets/images/71JY37HybML._SL1000_.jpg" height="130" width="130"></button>
+        <button id="button-2" ><img src="assets/images/89954d2b9358a348582aff777eee9349--rocks-and-minerals-crystals-minerals.jpg" height="130" width="130"/></button>
+        <button id="button-3" ><img src="assets/images/download.jpg" height="130" width="130"/></button>
+        <button id="button-4" ><img src="assets/images/Rose-Quartz-1.jpg" height="130" width="130"/></button>
+
+    </div>
+
+
+    <div class="total-score">
+       <p id = "large">Your total score is:
+           <div id="total-score"></div>
+       </p>
+    </div>
+
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    
+
+</body>
+</html>

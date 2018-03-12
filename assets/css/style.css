@@ -1,0 +1,31 @@
+body {
+   background-color: aquamarine; 
+   font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: 100px;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+.instructions {
+    margin: 20px;
+}
+
+.crystal-buttons {
+    margin: 10px;
+}
+
+#large {
+    margin: 7px;
+    font-size: 30px;
+}
+
